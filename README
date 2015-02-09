@@ -1,1 +1,10 @@
-The "Andrea Weisse/Peter Swaine" whole-cell model, in Objective Caml. Uses CVODE for numerical integration.
+The "Andrea Weisse/Peter Swaine" whole-cell model, in Objective Caml. Uses CVODE for numerical integration through
+the SundialsML OCaml interface.
+
+To compile the models either use OPAM, or edit make.sh and replace `opam config var lib`/sundialsml 
+by the actual directory where SundialsML is installed. 
+
+A gnuplot script is provided for visualisation: after successful execution, the command
+  gnuplot base_model.gp
+should do the job (replace base_model.gp with the name of the .gp file corresponding to
+the particular cell model).
