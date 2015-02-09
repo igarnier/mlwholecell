@@ -1,0 +1,1 @@
+The "Andrea Weisse/Peter Swaine" whole-cell model, in Objective Caml. Uses CVODE for numerical integration.
